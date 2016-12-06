@@ -89,7 +89,7 @@ describe('Voting', () => {
     )
 
     firstButton = scryRenderedDOMComponentsWithTag(component, 'button')[0]
-    expect(firstButton.textContent).to.equal('Sunshine')
+    expect(firstButton.textContent).to.equal('Trainspotting')
   })
 
   it('does update DOM when prop changes', () => {
